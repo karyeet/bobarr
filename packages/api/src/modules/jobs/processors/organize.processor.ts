@@ -48,7 +48,7 @@ export class OrganizeProcessor {
   private getOrganizeStrategyCommand(strategy: OrganizeLibraryStrategy) {
     switch (strategy) {
       case OrganizeLibraryStrategy.LINK:
-        return 'ln -s';
+        return 'ln';
       case OrganizeLibraryStrategy.MOVE:
         return 'mv';
       case OrganizeLibraryStrategy.COPY:
