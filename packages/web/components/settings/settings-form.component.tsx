@@ -68,7 +68,7 @@ function ParamsInput({ inputName }: { inputName: string }) {
             <Popover
               content={
                 <div>
-                  It will create a symbolic link between the downloaded file and
+                  It will create a hard link between the downloaded file and
                   your library folder.
                   <br />
                   This keeps the torrent seeding and deleting the file in your
