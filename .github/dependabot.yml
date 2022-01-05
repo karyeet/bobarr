@@ -15,7 +15,7 @@ updates:
     schedule:
       interval: "daily"
 
-   - package-ecosystem: "npm" # See documentation for possible values
+  - package-ecosystem: "npm" # See documentation for possible values
     directory: "/packages/web" # Location of package manifests
     schedule:
       interval: "daily"
